@@ -1,6 +1,6 @@
-(English Below)
-------TIẾNG VIỆT------
-🌟 GIỚI THIỆU BẢN THÂN
+**(English Below)**
+**------TIẾNG VIỆT------**
+🌟** GIỚI THIỆU BẢN THÂN**
 👤 **Họ và tên đầy đủ:** Phạm Đức Trí Thành  
 🎂 **Sinh ngày:** 26/08/2006  
 🏠 **Quê quán:** Hải Phòng (Hải Dương)  
@@ -41,17 +41,15 @@ Instagram:  @lucasmartin_26
 Zalo: 0382219516
 
 ------ENGLISH LANGUAGE------
-👨‍💻 PORTFOLIO: PHAM DUC TRI THANH
-AI & Data Science Student | Aspiring Full-Stack Developer
-🌟ABOUT ME
-👤 Full Name: Pham Duc Tri Thanh
-🎂 Date of Birth: August 26, 2006
-🏠 Hometown: Hai Phong (Hai Duong), Vietna
-📍 Current Location: Living and studying in Hanoi, Vietnam
-🎓 Education: Student at Thuyloi University
-🏛 Faculty: Information Technology
-🎯 Major: Artificial Intelligence and Data Science
-✅ Strengths
+🌟**ABOUT ME**
+👤** Full Name:** Pham Duc Tri Thanh
+🎂** Date of Birth: **August 26, 2006
+🏠 **Hometown:** Hai Phong (Hai Duong), Vietnam
+📍** Current Location:** Living and studying in Hanoi, Vietnam
+🎓** Education: **Student at Thuyloi University
+🏛 **Faculty:** Information Technology
+🎯** Major:** Artificial Intelligence and Data Science
+✅** Strengths
 Proactive Learner: Possess a strong spirit of inquiry, creativity, and self-discipline in learning.
 Adaptability: Friendly, sociable, and able to quickly adapt to new environments.
 ⚠️ Areas for Improvement
