@@ -1,16 +1,17 @@
 (English Below)
 ------TIẾNG VIỆT------
 🌟 GIỚI THIỆU BẢN THÂN
-👨‍💻Họ và tên đầy đủ: Phạm Đức Trí Thành
-Sinh ngày: 26/08/2006
-Quê quán: Hải Phòng ( Hải Dương)
-Đang sinh sống và học tập tại Hà Nội
-Sinh viên Trường Đại học Thủy Lợi - Khoa Công Nghệ Thông Tin
-Chuyên môn: Trí Tuệ Nhân Tạo và Khoa Học Dữ Liệu
+  Họ và tên đầy đủ: Phạm Đức Trí Thành
+  Sinh ngày: 26/08/2006
+  Quê quán: Hải Phòng ( Hải Dương)
+  Đang sinh sống và học tập tại Hà Nội
+  Sinh viên Trường Đại học Thủy Lợi - Khoa Công Nghệ Thông Tin
+  Chuyên môn: Trí Tuệ Nhân Tạo và Khoa Học Dữ Liệu
 
 Ưu điểm: 
 + Có tinh thần học hỏi, sáng tạo và tự giác
 + Dễ gần gũi, hòa đồng, nhanh thích nghi với môi trường mới
+  
 Nhược điểm:
 + Còn thiếu kỷ luật, cần chăm chỉ hơn
 + Cần nâng cao một số kỹ năng 
