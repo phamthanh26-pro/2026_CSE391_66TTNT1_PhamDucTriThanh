@@ -44,13 +44,13 @@ Zalo: 0382219516
 👨‍💻 PORTFOLIO: PHAM DUC TRI THANH
 AI & Data Science Student | Aspiring Full-Stack Developer
 🌟ABOUT ME
-Full Name: Pham Duc Tri Thanh
-Date of Birth: August 26, 2006
-Hometown: Hai Phong (Hai Duong), Vietnam
-Current Location: Hanoi, Vietnam
-Education: Thuyloi University (TLU)
-Faculty: Information Technology
-Major: Artificial Intelligence & Data Science
+👤 Full Name: Pham Duc Tri Thanh
+🎂 Date of Birth: August 26, 2006
+🏠 Hometown: Hai Phong (Hai Duong), Vietna
+📍 Current Location: Living and studying in Hanoi, Vietnam
+🎓 Education: Student at Thuyloi University
+🏛 Faculty: Information Technology
+🎯 Major: Artificial Intelligence and Data Science
 ✅ Strengths
 Proactive Learner: Possess a strong spirit of inquiry, creativity, and self-discipline in learning.
 Adaptability: Friendly, sociable, and able to quickly adapt to new environments.
