@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h3>Basic Info</h3>
+    <hr />
+    <form>
+      <table cellpadding="6">
+        <tr>
+          <th><label for="ID">Employee ID</label></th>
+          <th>9</th>
+          <br />
+        </tr>
+        <tr>
+          <th><label for="Lname">Last Name</label><br /></th>
+          <th>Dodsworth</th>
+        </tr>
+        <tr>
+          <th><label for="fname">First Name</label></th>
+          <th><input type="text" name="fname" id="fname" /></th>
+          <br />
+        </tr>
+        <tr>
+          <th rowspan="4"><label for="Gender">Gender</label></th>
+          <th><input type="radio" name="Male" id="Male" value="GM" /> Male</th>
+        </tr>
+        <tr>
+          <th>
+            <input type="radio" name="Female" id="Female" value="FM" />Female
+          </th>
+        </tr>
+        <tr>
+          <th><input type="radio" name="XXX" id="XXX" value="XXX" /> XXX</th>
+        </tr>
+        <tr>
+          <th><input type="radio" name="ZZZ" id="ZZZ" value="ZZZ" /> ZZZ</th>
+        </tr>
+        <tr>
+          <th><label for="Title">Title</label></th>
+          <th><input type="text" name="Title" id="Title" /></th>
+          <br />
+        </tr>
+        <tr>
+          <th><label for="Suffix">Suffix</label></th>
+          <th><input type="text" name="Suffix" id="Suffix" /><br /></th>
+        </tr>
+        <tr>
+          <th><label for="BirthDate">BirthDate</label></th>
+          <th><input type="datetime" name="date" id="date" /><br /></th>
+        </tr>
+        <tr>
+          <th><label for="HireDate">HireDate</label></th>
+          <th><input type="datetime" name="datetime" id="datetime" /><br /></th>
+        </tr>
+        <tr>
+          <th><label for="SSN">SSN # (if applicable)</label></th>
+          <th><input type="text" name="ssn" id="ssn" /></th>
+          <br />
+        </tr>
+        <tr>
+          <th><label for="reports to">Reports To</label></th>
+          <th>
+            <select name="Reports" id="Reports" size="1">
+              <option value="Buchanan">Buchanan</option>
+            </select>
+          </th>
+        </tr>
+      </table>
+    </form>
+    <h3>Contact Info</h3>
+    <hr />
+    <table cellpadding="6">
+      <form>
+        <tr>
+          <th><label for="email">Email</label></th>
+          <th>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="name@example.com"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th><label for="address">Address</label></th>
+          <th><input type="text" name="addr" id="addr" /></th>
+        </tr>
+        <tr>
+          <th><label for="city">City</label></th>
+          <th><input type="text" name="city" id="city" /></th>
+        </tr>
+        <tr>
+          <th><label for="region">Region</label></th>
+          <th><input type="text" name="region" id="region" /></th>
+        </tr>
+        <tr>
+          <th><label for="postal_code">Postal Code</label></th>
+          <th><input type="text" name="postal_code" id="postal_code" /></th>
+        </tr>
+        <tr>
+          <th><label for="country">Country</label></th>
+          <th>
+            <select name="nations_name" id="nation">
+              <option value="area">Russian Federation</option>
+            </select>
+          </th>
+        </tr>
+        <tr>
+          <th><label for="phone">US Home Phone</label></th>
+          <th>
+            <input
+              type="tel"
+              name="phone"
+              id="phone "
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            />
+          </th>
+        </tr>
+        <tr>
+          <th><label for="photo">Photo</label></th>
+          <th><input type="file" name="image" id="photo" /></th>
+        </tr>
+      </form>
+    </table>
+    <h3>Optional Info</h3>
+    <hr />
+    <table cellpadding="6">
+      <tr></tr>
+      <tr>
+        <th><label for="Note">Notes</label></th>
+        <th><textarea name="Note" cols="40" rows="6"></textarea></th>
+      </tr>
+      <tr>
+        <th rowspan="4">
+          <label for="preferred_shift">Preferred Shift</label>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <input type="checkbox" name="Regular" id="regular" value="regular" />
+          Regular
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <input
+            type="checkbox"
+            name="gravy_yard"
+            id="gravy_yard"
+            value="gravy_yard"
+          />Gravity Yard
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <input type="checkbox" name="null" id="null" value="null" />
+        </th>
+      </tr>
+      <tr>
+        <td rowspan="4"><label for="identical">Are you human?</label></td>
+      </tr>
+      <tr>
+        <td><h2>TIDAWO</h2></td>
+      </tr>
+      <tr>
+        <td>Click to change</td>
+      </tr>
+      <tr>
+        <td><input type="text" name="search" id="search" /></td>
+      </tr>
+    </table>
+    <input type="submit" value="Submit" />
+    <input type="reset" value="Cancel" />
+  </body>
+</html>
