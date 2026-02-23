@@ -1,0 +1,88 @@
+/* TODO 1: Dùng universal selector để reset margin và padding về 0 cho toàn trang */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* TODO 2: Dùng type selector cho body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* TODO 3: Dùng ID selector cho #main-header */
+
+#main-header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+/* TODO 4: Dùng class selector cho .nav-link */
+
+.nav-link {
+  color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+/* TODO 5: Dùng group selector cho h1, h2, h3 */
+
+h1 h2 h3 {
+  font-family: Georgia, serif;
+}
+/* TODO 6: Dùng descendant selector cho nav a */
+
+nav a {
+  display: inline-block;
+  margin: 0 10px;
+}
+/* TODO 7: Dùng pseudo-class selector cho a:hover */
+
+a:hover {
+  color: #ff6600;
+  background-color: #eee;
+}
+/* Bước 1: Reset box-sizing cho toàn trang */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Bước 2: Style cho .posts container */
+.posts {
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+/* Bước 3: Style cho .card */
+.card {
+  width: calc(33.33% - 20px);
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Bước 4: Style cho .btn */
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+.btn:hover {
+  background: #0056b3;
+}
