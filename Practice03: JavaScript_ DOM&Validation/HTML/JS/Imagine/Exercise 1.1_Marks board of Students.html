@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+</html>
+  <body>
+    <div class="container">
+      <h1>STUDENT GRADE MANAGER</h1>
+
+      <div class="form-group">
+        <div>
+          <label>Name:</label>
+          <input type="text" id="name" placeholder="Enter name" />
+        </div>
+        <div>
+          <label>Score (0-10):</label>
+          <input
+            type="number"
+            id="score"
+            step="0.1"
+            placeholder="Enter score"
+          />
+        </div>
+        <button id="addBtn">ADD</button>
+      </div>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Grade</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="list"></tbody>
+      </table>
+
+      <div class="stats">
+        <p>Total: <span id="total">0</span></p>
+        <p>Average: <span id="avg">0.00</span></p>
+      </div>
+    </div>
+
+    <script src="script1.1.js"></script>
+  </body>
+</html>

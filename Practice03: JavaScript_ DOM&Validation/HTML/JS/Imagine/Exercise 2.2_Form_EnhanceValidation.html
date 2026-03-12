@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Form</title>
+  </head>
+  <body>
+    <div class="container" id="formContainer">
+      <h2>Order Form</h2>
+      <form id="orderForm">
+        <div class="form-group">
+          <label>Product</label>
+          <select id="product">
+            <option value="">-- Select product --</option>
+            <option value="Áo">Áo - 150,000 VND</option>
+            <option value="Quần">Quần - 200,000 VND</option>
+            <option value="Giày">Giày - 300,000 VND</option>
+            <option value="Mũ">Mũ - 50,000 VND</option>
+          </select>
+          <div class="error" id="productError"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Quantity (1-99)</label>
+          <input type="number" id="quantity" min="1" max="99" value="1" />
+          <div class="error" id="quantityError"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Delivery Date</label>
+          <input type="date" id="deliveryDate" />
+          <div class="error" id="dateError"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Delivery Address</label>
+          <input type="text" id="address" />
+          <div class="error" id="addressError"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Note (max 200 characters)</label>
+          <input type="text" id="note" />
+          <div class="note-counter" id="noteCounter">0/200</div>
+          <div class="error" id="noteError"></div>
+        </div>
+
+        <div class="form-group">
+          <label>Payment Method</label>
+          <div>
+            <input type="radio" name="payment" value="COD" id="cod" />
+            <label for="cod">COD</label>
+            <input type="radio" name="payment" value="Bank" id="bank" />
+            <label for="bank">Bank Transfer</label>
+            <input type="radio" name="payment" value="Wallet" id="wallet" />
+            <label for="wallet">E-wallet</label>
+          </div>
+          <div class="error" id="paymentError"></div>
+        </div>
+
+        <div class="total-price" id="totalPrice">Total: 0 VND</div>
+
+        <button type="submit">Review Order</button>
+      </form>
+    </div>
+
+    <div class="container hidden" id="confirmContainer">
+      <h2>Confirm Your Order</h2>
+      <div class="order-summary" id="orderSummary"></div>
+      <div class="confirm-buttons">
+        <button id="confirmBtn">Confirm</button>
+        <button id="cancelBtn">Cancel</button>
+      </div>
+    </div>
+
+    <div class="container hidden" id="successContainer">
+      <h2>Success!</h2>
+      <p id="successMessage">Your order has been placed successfully!</p>
+    </div>
+
+    <script src="script2.2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="formContainer">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <div class="form-group">
+          <label>Full name</label>
+          <input type="text" id="fullname" />
+          <div class="error" id="fullnameError"></div>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" id="email" />
+          <div class="error" id="emailError"></div>
+        </div>
+        <div class="form-group">
+          <label>Phone</label>
+          <input type="tel" id="phone" />
+          <div class="error" id="phoneError"></div>
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" id="password" />
+          <div class="error" id="passwordError"></div>
+        </div>
+        <div class="form-group">
+          <label>Confirm password</label>
+          <input type="password" id="confirmPassword" />
+          <div class="error" id="confirmError"></div>
+        </div>
+        <div class="form-group">
+          <label>Gender</label>
+          <div>
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="other" id="other" />
+            <label for="other">Other</label>
+          </div>
+          <div class="error" id="genderError"></div>
+        </div>
+        <div class="form-group">
+          <input type="checkbox" id="terms" />
+          <label for="terms">I accept the terms</label>
+          <div class="error" id="termsError"></div>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+
+    <div class="container hidden" id="successContainer">
+      <h2>Success!</h2>
+      <p id="successMessage"></p>
+    </div>
+
+    <script src="script2.1.js"></script>
+  </body>
+</html>
